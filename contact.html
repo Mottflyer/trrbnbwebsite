@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="shortcut icon" href="./img/trr-logo-sm.png" type="image/png" />
+    <title>Timber Ridge Ranch</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="nav__flow">
+                <a href="index.html" class="trr-logo"></a>
+                <div class="mobile" style="flex: 1;"></div>
+                <div class="nav__links mobile">
+                    <a href="index.html">
+                        HOME
+                    </a>
+                </div>
+                <div class="nav__links desktop">
+                    <a href="index.html">
+                        HOME
+                    </a>
+                    <a href="#vision">
+                        ABOUT US
+                    </a>
+                    <a href="#about-property">
+                        THE PROPERTY
+                    </a>
+                    <a href="#meet-host">
+                        YOUR HOST
+                    </a>
+                    <a href="#weddings">
+                        WEDDINGS
+                    </a>
+                    <!--<a href="gallery.html">
+                        GALLERY
+                    </a>-->
+                    <a href="#testimonials">
+                        TESTIMONIALS
+                    </a>
+                    <a href="contact.html">
+                        CONTACT
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- TRR Title -->
+        <section id="trr-title">
+            <div class="trr-title__flow">
+                <div class="trr-title__container">
+                    <div style="flex: 1;"></div>
+                    <div class="trr-title__info">
+                        <h1>Get In Touch</h1>
+                        <p class="soft-read">We'd love to hear from you. Whether you're planning a stay, wedding, or special event, our team is here to help.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact__flow">
+
+                <!--Connect card-->
+                <div class="card contact__connect">
+                    <div class="section-title">
+                        <h2>Let's Connect</h2>
+                        <div class="break"></div>
+                    </div>
+                    <p class="soft-read" style="margin-bottom: 1em;">Have a question or ready to start planning? Reach out to us directly.</p>
+                    <div class="info-box">
+                        <div class="image image__phone"></div>
+                        <div class="info-container">
+                            <p>Call Us</p>
+                            <p class="sub">587-575-3003</p>
+                        </div>
+                    </div>
+                    <!--<div class="divider"></div>
+                    <div class="info-box">
+                        <div class="image image__email"></div>
+                        <div class="info-container">
+                            <p>Email Us</p>
+                            <p class="sub">timberridgeranchbnb@gmail.com</p>
+                        </div>
+                    </div>-->
+                    <div class="divider"></div>
+                    <div class="info-box">
+                        <div class="image image__clock"></div>
+                        <div class="info-container">
+                            <p>Response Time</p>
+                            <p class="sub">We typically respond within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Form Card-->
+                <div class="card contact__form">
+                    <div class="section-title">
+                        <h2>Send Us a Message</h2>
+                        <div class="break"></div>
+                    </div>
+                    <form action="https://formspree.io/f/xkoyojek" method="POST">
+
+                        <div class="hbox">
+                            <div class="field">
+                                <p>First Name</p>
+                                <input type="text" name="First Name" placeholder="First Name" required>
+                            </div>
+                            <div class="field">
+                                <p>Last Name</p>
+                                <input type="text" name="Last Name" placeholder="Last Name" required>
+                            </div>
+                        </div>
+
+                        <div class="hbox">
+                            <div class="field">
+                                <p>Email Address</p>
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                            </div>
+                            <div class="field">
+                                <p>Phone Number</p>
+                                <input type="tel" name="Phone" placeholder="Phone Number">
+                            </div>
+                        </div>
+
+                        <div class="hbox">
+                            <div class="field">
+                                <p>What type of booking?</p>
+                                <select name="Booking Type" required>
+                                    <option value="">Please select</option>
+                                    <option>Vacation</option>
+                                    <option>Wedding</option>
+                                    <option>Wellness Retreat</option>
+                                    <option>Corporate Retreat</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <p>Number of People</p>
+                                <input type="number" name="Number of People" placeholder="Number of People">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <p>Any Pets?</p>
+                            <select name="Pets">
+                                <option value="">Please select</option>
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </div>
+
+                        <input type="text" name="specify pets" placeholder="If yes, please specify.">
+
+                        <div class="field">
+                            <p>How did you hear about us?</p>
+                            <select name="How did you hear about us?">
+                                <option value="">How did you hear about us?</option>
+                                <option>Airbnb</option>
+                                <option>Google</option>
+                                <option>Social Media</option>
+                                <option>Word of Mouth</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <p>Do you prefer we contact you by:</p>
+                            <select name="Preferred Contact">
+                                <option value="">Please select (Call, Text, or Email)</option>
+                                <option>Call</option>
+                                <option>Text</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <p>Additional Details</p>
+                            <textarea name="Message" placeholder="Tell us more about your plans, dates, or any special requests..."></textarea>
+                        </div>
+
+                        <input type="hidden" name="_redirect" value="/index.html">
+
+                        <button type="submit" class="capsule-button">Send Inquiry</button>
+
+                        <p style="align-self: center;">We respect your privacy and will never share your information.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mobile Footer -->
+    <footer class="mobile">
+        <div class="footer__flow">
+            <div class="trr-logo"></div>
+            <div class="contact footer__call-us">
+                <div class="image footer__call-us__image image__phone"></div>
+                <div class="info">
+                    <p class="sub">Call us Directly</p>
+                    <p>587-575-3003</p>
+                </div>
+            </div>
+            <!--<div class="contact footer__contact-form">
+                <div class="image footer__contact-form__image image__email"></div>
+                <div class="info">
+                    <p class="sub">Send us a Message</p>
+                    <p class="highlight">timberridgeranchbnb@gmail.com</p>
+                </div>
+            </div>-->
+            <div class="divider"></div>
+            <div class="link-box">
+                <a class="social image__instagram" target="_blank" href="https://www.instagram.com/timberridgeranchbnb?igsh=MWF6N2NqNTEzc3gzMQ%3D%3D"></a>
+            </div>
+            <div class="proudly-horse-friendly">
+                <div class="image image__horse"></div>
+                <p>
+                    Proudly Horse Friendly
+                </p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Timber Ridge Ranch Bed & Breakfast. All rights reserved.</p>
+    </footer>
+
+    <!-- Desktop Footer -->
+    <footer class="desktop">
+        <div class="footer__flow">
+            <div class="footer__trr-horse">
+                <a href="index.html" class="trr-logo"></a>
+                <div class="proudly-horse-friendly">
+                    <div class="image image__horse"></div>
+                    <p>
+                        Proudly Horse Friendly
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="footer-links">
+                <p>CONTACT US</p>
+                <div class="contact footer__call-us">
+                    <div class="image footer__call-us__image image__phone"></div>
+                    <div class="info">
+                        <p class="sub">Call us Directly</p>
+                        <p>587-575-3003</p>
+                    </div>
+                </div>
+                <!--<div class="contact footer__contact-form" href="contact.html">
+                    <div class="image footer__contact-form__image image__email"></div>
+                    <div class="info">
+                        <p class="sub">Send us a Message</p>-->
+                        <!--<p>Fill out our inquiry form and we'll be in touch.</p>-->
+                        <!--<p class="highlight">timberridgeranchbnb@gmail.com</p>
+                    </div>
+                </div>-->
+            </div>            
+            <div class="divider"></div>
+            <div class="footer-links">
+                <p>FOLLOW US</p>
+                <div class="link-box">
+                    <a class="social image__instagram" target="_blank" href="https://www.instagram.com/timberridgeranchbnb?igsh=MWF6N2NqNTEzc3gzMQ%3D%3D"></a>
+                </div>
+            </div>
+
+        </div>
+        <p class="copyright">© 2026 Timber Ridge Ranch Bed & Breakfast. All rights reserved.</p>
+    </footer>
+</body>
+</html>
